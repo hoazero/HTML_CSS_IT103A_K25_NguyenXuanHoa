@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Web phim nhật - Simple</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Xem Phim</h1>
+  </header>
+
+  <main class="container">
+    <section class="player">
+      <div class="video-wrap">
+        <video id="video" controls playsinline poster="">
+          <source id="videoSrc" src="" type="video/mp4">
+          Trình duyệt của bạn không hỗ trợ thẻ video.
+        </video>
+      </div>
+      <div class="meta">
+        <h2 id="title">Chưa có phim</h2>
+        <p id="desc">Chọn phim từ danh sách bên phải để bắt đầu xem.</p>
+      </div>
+    </section>
+
+    <aside class="playlist">
+      <div class="search-wrap">
+        <input id="search" type="search" placeholder="Tìm phim...">
+      </div>
+      <ul id="list" class="movie-list"></ul>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

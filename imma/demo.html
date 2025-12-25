@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>first web Hòa</title>
+    </head>
+    <body>
+        <style>
+            /* Dùng class này để dịch toàn bộ nội dung bên trong sang phải.
+               Thay đổi `margin-left` hoặc dùng `padding-left` theo ý muốn. */
+            .shift-right {
+                margin-left: 45px; /* đổi giá trị này để dịch nhiều/ít */
+            }
+
+            /* Nếu muốn canh phải (text-align right) thay vì dịch sang phải, dùng:
+               .align-right { text-align: right; } */
+        </style>
+
+        <div class="shift-right">
+            Xin chào các con vợ đã đến với web ảo của Hòa<br>
+            Web ảnh 3D Trung Quốc<br>
+
+            <h3>Gái</h3>
+
+            Vân vận <i> (cô vợ không danh phân của Viêm)</i>, blablabla.
+
+            <h5>Thiếu nữ trung wua</h5>
+
+            <img src="./hunghua.jpg" alt="girl china 3D" width="300">
+            <!-- Video demo: nguồn public để test. Thay bằng đường dẫn file cục bộ nếu bạn tải video về
+                 Ví dụ thay src thành "video.mp4" nếu bạn lưu file vào cùng thư mục. -->
+            <div style="margin-top:16px;">
+                <video id="video" width="640" height="360" controls playsinline poster="">
+                    <source src="./Viemtrau.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ thẻ video.
+                </video>
+            </div>
+            
+        </div>
+    </body>
+</html>
+
