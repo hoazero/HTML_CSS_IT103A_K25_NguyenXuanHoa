@@ -1,0 +1,7 @@
+ol li:hover {
+    background-color: #78350f ;
+    color: yellow;
+}
+a:hover {
+    color: orange;
+}
