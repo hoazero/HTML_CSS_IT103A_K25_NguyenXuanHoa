@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gourmet Insights - Food Blog</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: #f5f1ea;
+            font-family: "Roboto", sans-serif;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        .main-content {
+            flex: 1 0 auto;
+        }
+
+        .footer {
+            flex-shrink: 0;
+        }
+
+        .navbar {
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 6%;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            color: #d4af37;
+            font-family: "Playfair Display", serif;
+            font-size: 26px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #d4af37;
+        }
+
+        .container {
+            max-width: 1250px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .menu-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .menu-card {
+            background-color: #ffffff;
+            flex: 1;
+            min-width: 320px;
+            padding: 35px;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.04);
+            display: flex;
+            flex-direction: column;
+            transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+        }
+
+        .menu-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+        }
+
+        .card-title {
+            color: #d4af37;
+            font-family: "Playfair Display", serif;
+            font-size: 24px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .card-text {
+            flex-grow: 1;
+            margin-bottom: 25px;
+            font-size: 15px;
+            color: #555;
+            text-align: justify;
+        }
+
+        .card-image {
+            width: 100%;
+            height: 220px;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.6s ease;
+        }
+
+        .menu-card:hover .card-image img {
+            transform: scale(1.1);
+        }
+
+        .footer {
+            background-color: #1a1a1a;
+            color: #888;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 6%;
+            font-size: 13px;
+            border-top: 1px solid #333;
+        }
+
+        .footer-right a {
+            color: #888;
+            text-decoration: none;
+            margin-left: 20px;
+            transition: color 0.3s;
+        }
+
+        .footer-right a:hover {
+            color: #d4af37;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Food Blog</div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Recipes</a>
+        <a href="#">Menu</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+        <section class="menu-grid">
+          <article class="menu-card">
+            <h2 class="card-title">Món Khai Vị</h2>
+            <div class="card-text">
+              <p>
+                Appetizer (món khai vị) là món ăn hoặc đồ uống nhỏ, nhẹ nhàng
+                phục vụ trước bữa chính nhằm kích thích vị giác, "đánh thức" sự
+                thèm ăn cho các món tiếp theo trong bữa tiệc. Chúng có thể nóng
+                hoặc lạnh, khẩu phần nhỏ, và có ở nhiều nền ẩm thực khác nhau.
+              </p>
+            </div>
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1541529086526-db283c563270?auto=format&fit=crop&q=80&w=500"
+                alt="Khai vị"
+              />
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <h2 class="card-title">Món Chính</h2>
+            <div class="card-text">
+              <p>
+                Main course (món chính) là phần quan trọng nhất, thịnh soạn nhất
+                trong một bữa ăn nhiều món, thường được phục vụ sau món khai vị
+                và trước món tráng miệng. Món chính cung cấp dinh dưỡng và năng
+                lượng chính, thường tập trung vào thịt, cá hoặc hải sản được chế
+                biến đa dạng.
+              </p>
+            </div>
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=500"
+                alt="Món chính"
+              />
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <h2 class="card-title">Món Tráng Miệng</h2>
+            <div class="card-text">
+              <p>
+                Món tráng miệng là món ăn ngọt hoặc món nhẹ được dùng sau bữa ăn
+                chính, nhằm kết thúc bữa ăn một cách trọn vẹn, làm sạch vị giác,
+                và thường bao gồm các loại bánh, kem, trái cây, sô cô la, chè,
+                hoặc sữa chua. Vị ngọt giúp giải phóng endorphin tạo cảm giác
+                hạnh phúc.
+              </p>
+            </div>
+            <div class="card-image">
+              <img
+                src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&q=80&w=500"
+                alt="Tráng miệng"
+              />
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-left">© 2025 Food Blog. All rights reserved.</div>
+      <div class="footer-right">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </footer>
+  </body>
+</html>

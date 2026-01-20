@@ -1,0 +1,124 @@
+body{
+    font-family: Times New Roman;
+}
+
+header h1, nav{
+    background-color: #2e8b57;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    height: 60px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* nav a:hover{
+
+} */
+.anh-head{
+    position: relative;
+}
+.anh-head img{
+    margin: 0px;
+    max-height: 300px;
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    margin: 10px auto;
+    border-radius: 1px solid black;
+    padding: 0px 200px 500px 500px;
+}
+
+.gioi-thieu{
+    margin: 20px 280px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.gioi-thieu h2{
+    color: #499766;
+}
+
+.tour-noi{
+    display: inline-block;
+    margin: 20px 280px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 912px;
+    width: 100%;
+}
+
+.tour-noi h2{
+    color: #499766;
+}
+.anh-dulich{
+    width: 30%;
+    display: inline-block;
+    margin: 13px;
+}
+
+.anh-dulich2{
+    display: inline-block;
+    margin: 5px 300px 5px 300px;
+}
+
+.tabal-big{
+    margin: 20px 280px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.tabal-big h2{
+    color: #499766;
+}
+
+.tabal-big table{
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.tabal-big table th{
+    background-color: #dff0ea;
+}
+
+.form-end{
+    margin: 20px 280px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.form-end{
+    color: #499766;
+}
+
+.form-mini input{
+    display: block;
+    width: 95%;
+    margin: 10px 15px;
+}
+
+.in-end{
+    background-color: #499766;
+}
+
+.in-end::placeholder{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: #2e8b57;
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+}
+

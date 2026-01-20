@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header{
+            background-color: #c0392b;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .menu1 a{
+            color: white;
+            text-decoration: none;
+            margin: 0px 15px;
+        }
+
+        .menu1 a:hover{
+            color: #7d4a45;
+        }
+        .session1{
+            display: flex;
+            justify-content: center;
+            margin: 60px 0px;
+            gap: 60px;
+        }
+
+        .text1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .text1 h2{
+            font-size: 30px;
+            margin-bottom: 0px;
+        }
+
+        .session2{
+            margin: 30px 20px;
+            color: #c54a3d;
+            text-align: center;
+        }
+
+        .menu-food{
+            display: flex;
+            justify-content: center;
+        }
+
+        .munu-son{
+            margin: 0px 20px;
+            border-radius: 10px;
+            background-color: #fff9f5;
+        }
+
+        .munu-son img{
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .name-food{
+            color: black;
+            font-weight: bold;
+        }
+
+        footer{
+            background-color: #2c2c2c;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 15px 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PHỞ NHÀ</h1>
+        <nav class="menu1">
+            <a href="">Trang chủ</a>
+            <a href="">Thực đơn</a>
+            <a href="">Liên hệ</a>
+        </nav>
+    </header>
+
+    <section class="session1">
+        <div class="text1">
+            <h2>Phở Ngon - Chuẩn Vị Hà
+                <br>Nội</h2>
+            <p>Nước dùng hầm từ xương bò tươi trong 10 tiếng
+                <br>Thịt bò mềm, bánh phở dai ngon
+                <br>Mở cửa từ 6h sáng mỗi ngày</p>
+        </div>
+        
+        <div>
+            <img src="./Bát phở.png" alt="">
+        </div>
+    </section>
+
+    <section class="session2">
+        <h2>Thực Đơn</h2>
+        <div class="menu-food">
+            <div class="munu-son">
+                <img src="./Phở bò.png" alt="">
+                <p class="name-food">Phở Bò Tái</p>
+                <p>55.000đ</p>
+            </div>
+
+            <div class="munu-son">
+                <img src="./Phở gà.png" alt="">
+                <p class="name-food">Phở Bò Tái</p>
+                <p>55.000đ</p>
+            </div>
+
+            <div class="munu-son">
+                <img src="./Phở đặc biệt.png" alt="">
+                <p class="name-food">Phở Bò Tái</p>
+                <p>55.000đ</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Quán Phở Nhà • 123 Đường Giải Phóng, Hà Nội • 0904 123 456</p>
+    </footer>
+</body>
+</html>
