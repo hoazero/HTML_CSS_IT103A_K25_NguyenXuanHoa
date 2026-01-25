@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 20px;
+            padding: 20px 0px;
+        }
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+            align-items: center;
+        }
+
+        nav a{
+            color: black;
+            text-decoration: none;
+        }
+
+        .dac-biet{
+            background-color: #f9fafb;
+            color: #8a8df3;
+            padding: 8px;
+        }
+
+        .end-head{
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .color{
+            width: 40px;
+            height: 40px;
+            background-color: #8a8df3;
+            border-radius: 50%;
+        }
+
+        .section1{
+            background-color: #5d5ced;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 40px 0px;
+            gap: 10px;
+        }
+
+        .section2{
+            padding: 15px 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .section2 a{
+            text-decoration: none;
+            color: black;
+            border: 1px solid rgb(99, 99, 99);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .one{
+            background-color: #8a8df3!important;
+            border: 1px solid #8a8df3!important;
+            color: white!important;
+        }
+
+        @media screen and (max-width: 400px) {
+            header{
+                display:flex;
+                flex-direction: column;
+            }
+            nav{
+                display:flex;
+                flex-direction: column;
+            }
+            .person{
+                display:flex;
+                flex-direction: column;
+            }
+            .item{
+                display:flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./Rikkei.png" alt="">
+        <nav>
+            <a href="">Trang chủ</a>
+            <a href="">Khóa học</a>
+            <a href="" class="dac-biet">Khóa học của tôi</a>
+            <a href="">Liên hệ</a>
+        </nav>
+
+        <div class="end-head">
+            <div class="color"></div>
+            <p>Nguyễn Xuân Hòa</p>
+        </div>
+    </header>
+
+    <section class="section1">
+        <h1>Khóa Học Của Tôi</h1>
+        <p>Tiếp tục hành trình học tập và phát triển kỹ năng của bạn</p>
+    </section>
+
+    <section class="section2">
+        <a href="" class="one">Tất cả khóa học(4)</a>
+        <a href="">Đang học(2)</a>
+        <a href="">Hoàn thành(1)</a>
+        <a href="">Đã lưu(1)</a>
+    </section>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Segoe UI';
+            background-color: rgb(222, 222, 222);
+        }
+        main{
+            border-radius: 5px;
+            background-color: white;
+            padding: 43px 39px;
+            margin: 15px 400px;
+            width: 39%;
+        }
+
+        .header{
+            text-align: center;
+        }
+        label{
+            display: block;
+        }
+        .section1{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .form-1{
+            width: 48%;
+        }
+        .form-1 input{
+            width: 100%;
+            height: 30px;
+            border-radius: 5px;
+            outline: none;
+            border: 0.3px solid rgb(214, 214, 214);
+            padding: 0px 8px;
+            margin-top: 5px;
+        }
+
+        .section2{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .section2 .form-1 {
+            width: 100%;
+        }
+
+        .btn{
+            height: 30px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            background-color: rgb(68, 68, 233);
+            color: white;
+        }
+
+        .footer{
+            text-align: center;
+            padding: 20px 0px 0px;
+        }
+
+        .footer a{
+            text-decoration: none;
+        }
+
+        .ed{
+            color: rgb(188, 188, 188);
+        }
+
+        .pass{
+            color: rgb(0, 180, 251);
+        }
+
+        @media screen and (max-width: 1000px){
+            main{
+                min-width: 280px;
+            }
+            .section1 {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+
+            .section1 .form-1 {
+                width: 100%;
+            }
+
+            /* .section1 .form-1 input{
+                width: 100%;
+            } */
+        } 
+    </style>
+</head>
+<body>
+    <main>
+        <div class="header">
+            <h1>Đăng ký</h1>
+            <p>Tạo tài khoản để bắt đầu học tập trên hệ thống e-learning</p>
+        </div>
+        <div class="section1">
+            <div class="form-1">
+                <label for="">Họ và tên đệm</label>
+                <input type="text" placeholder="Nguyễn Xuân">
+            </div>
+
+            <div class="form-1">
+                <label for="">Tên đây đủ</label>
+                <input type="text" placeholder="Hòa">
+            </div>
+        </div> 
+
+        <div class="section2">
+            <div class="form-1">
+                <label for="">Số điện thoại</label>
+                <input type="tel" placeholder="0123456789">
+            </div>
+
+            <div class="form-1">
+                <label for="">Email</label>
+                <input type="email" placeholder="Nhập địa chỉ email">
+            </div>
+
+            <div class="form-1">
+                <label for="">Mật khẩu</label>
+                <input type="password" placeholder="Nhập mật khẩu">
+            </div>
+
+            <div class="form-1">
+                <label for="">Nhập lại mật khẩu</label>
+                <input type="password" placeholder="Nhập lại mật khẩu">
+            </div>
+
+            <button class="btn">Đăng ký</button>
+        </div>
+
+        <div class="footer">
+            <a href="" class="ed">Đã có tài khoản?</a>
+            <a href="" class="pass">Đăng nhập</a>
+        </div>
+    </main>
+</body>
+</html>

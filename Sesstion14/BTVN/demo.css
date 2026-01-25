@@ -1,0 +1,357 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px 0;
+}
+nav a{
+    text-decoration: none;
+    font-size: 10px;
+    margin:10px;
+    color:black;
+}
+
+.dangky .dangnhap-item{
+    color:#6366F1;
+    outline:none;
+    border:1px solid #6366F1;
+    border-radius: 5px;
+    padding:5px;
+}
+.dangky .dangky-item{
+    color:white;
+    outline:none;
+    border:0;
+    background-color: #6366F1;
+    border-radius: 5px;
+    padding:5px 9px;
+    margin-left: 10px;
+}
+.dangnhap-item:active{
+    transition: all 0.5s ease;
+    transform: scale(1.2);
+}
+.dangky-item:active{
+    transition: all 0.5s ease;
+    transform: scale(1.2);
+}
+.logo{
+    display:flex;
+    justify-content: center;
+    gap:100px;
+    background-color: #6366F1;
+    align-items: center;
+    padding:30px 0;
+}
+
+.khampha{
+    width:30%;
+    height:auto;
+    color:white;
+}
+.khampha .choosing{
+    text-align: center;
+    margin-top: 10px;
+}
+.choosing .khamphakhoahoc{
+    border:0;
+    outline:none;
+    background-color: #6366F1;
+    color:white;
+    border-radius: 5px;
+    padding:5px 10px;
+}
+.choosing .timhieuthem{
+    border:1px solid white;
+    background-color: #6366F1;
+    color:white;
+    border-radius: 5px;
+    padding:5px 10px;
+    margin-left: 10px;
+}
+
+.choice {
+    width:30%;
+    height:auto;
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.item1{
+    width:100%;
+    background-color: white;
+    text-align: center;
+    border-radius:15px;
+    padding-top: 10px;
+}
+.item2{
+    width:100%;
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+}
+.item2 .trolling1{
+    width:50%;
+    height:auto;
+    text-align: center;
+    background-color: white;
+    border-radius:15px;
+    padding-top: 10px;
+}
+.logo h2{
+    color:#6366F1;
+}
+
+.logo2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px 0;
+    gap:30px;
+    background-color:#F9FAFB;
+}
+.aladin{
+    display:flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.aladin .card{
+    Width:265px;
+    Height: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 15px;
+    box-shadow: 0 4px 12px rgb(122, 121, 121);
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.card .list_title{
+    font-weight: 900;
+}
+.card .list_text{
+    text-align: center;
+}
+
+.logo3 .khoahocnoibat{
+    text-align: center;
+    padding:30px 0;
+}
+.list_line{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+.list_line .line1{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:auto;
+    gap:30px;
+    flex-wrap: wrap;
+}
+.line1 .list_card {
+     width:363.66px;
+     box-shadow: 0 4px 12px rgb(146, 146, 146);
+     border-radius: 10px;
+     
+}
+.list_card img{
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    width:100%;
+}
+.list_card .ungdung{
+    background-color: aliceblue;
+    padding:0 5px;
+    border-radius: 7px;
+}
+.line1 .list_card .h3{
+    width:100%;
+}
+
+.list_card .decu2{
+    position: relative;
+    bottom:190px;
+    left:300px;
+    background-color:#EC4899 ;
+    color:white;
+    padding:5px 10px;
+    border-radius: 10px;
+}
+.list_card .decu1{
+    position: relative;
+    bottom:190px;
+    left:270px;
+    background-color:#6366F1 ;
+    color:white;
+    padding:5px 10px;
+    border-radius: 10px;
+}
+.list_card .decu3{
+    position: relative;
+    bottom:190px;
+    left:300px;
+    background-color:#6366F1;
+    color:white;
+    padding:5px 10px;
+    border-radius: 10px;
+}
+.list_card .lodes{
+    display :flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(117, 116, 116);
+    padding-bottom: 20px;
+}
+.list_card .list_skibidi{
+    padding:10px 20px 30px 20px;
+}
+
+.list_card .quyetdinh{
+    display:flex;
+    justify-content:space-between ;
+    margin-top: 20px;
+}
+.quyetdinh button{
+    border:0;
+    outline:none;
+    padding:0 20px;
+    border-radius: 10px;
+    background-color: #6366F1;
+    color:white;
+}
+.quyetdinh .money p{
+    text-decoration: line-through;
+}
+.quyetdinh .money h3{
+    color:#6366F1;
+}
+
+.list_line{
+    padding-bottom: 90px;
+}
+footer{
+    background-color:#1F2937;
+    padding:50px;
+}
+.footer1{
+    display:flex;
+    justify-content: center;
+    color:rgb(156, 163, 175);
+    gap:50px;
+    padding-bottom:30px;
+    border-bottom:2px solid rgb(156, 163, 175);
+    flex-wrap: wrap;
+}
+.rikeiedu{
+    width:25%;
+    height:auto;
+    gap: 20px;
+}
+.rikeiedu p{
+    margin:20px 0;
+}
+.rikeiedu a{
+    color:rgb(156, 163, 175);
+}
+.salat{
+    display: flex;
+    gap:30px;
+}
+.cadic h3  {
+    color:white;
+}
+.cadic{
+    display: flex;
+    flex-direction: column;
+}
+.footer2{
+    display:flex;
+    justify-content: center;
+    color:rgb(156, 163, 175);
+    padding-top:50px;
+}
+
+@media (max-width:768px) {
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .logo{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:40px;
+    }
+    main .khampha, .choice{
+        width:100%;
+        text-align: center;
+        padding:0 30px;
+    }
+    .choosing{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:30px;
+    }
+    .choosing button{
+        width:100%;
+    }
+    .aladin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:30px;
+    }
+    .aladin .card{
+    Width:100%;
+    Height: auto;
+}
+    .line1 .list_card {
+     width:100%;
+     box-shadow: 0 4px 12px rgb(146, 146, 146);
+     border-radius: 10px;
+     
+}
+.list_card .decu1{
+    position: relative;
+    bottom:370px;
+    left:590px;
+}
+.list_card .decu2{
+    position: relative;
+    bottom:370px;
+    left:620px;
+}
+.list_card .decu3{
+    position: relative;
+    bottom:370px;
+    left:620px;
+}
+.rikeiedu{
+    width:100%;
+}
+.rikeiedu p{
+    text-align: center;
+}
+.rikeiedu nav{
+    text-align: center;
+}
+.salat{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+}
